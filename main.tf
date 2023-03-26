@@ -7,7 +7,7 @@ terraform {
   }
 }
 provider "yandex" {
-  token     = "y0_AgAAAABh8xp3AATuwQAAAADfcKhDH3Im-BLLRUqPTv3c4b7EcHnL_Dc"
+  token     = ".._AgAAAABh8xp3AATuwQAAAADfcKhDH3Im-BLLRUqPTv3c4b7EcHnL_Dc"
   cloud_id  = "b1g3511gbb5i7rp6vflk"
   folder_id = "b1g56afs20h7lmp67brb"
   zone      = "ru-central1-b"
