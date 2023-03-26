@@ -1,0 +1,17 @@
+#cloud-config
+users:
+  - name: nginx_adm
+    groups: sudo
+    shell: /bin/bash
+    sudo: ['ALL=(ALL) NOPASSWD:ALL']
+    ssh_authorized_keys:
+      - ssh-ed25519 
+---- BEGIN SSH2 PUBLIC KEY ----
+Comment: "rsa-key-20230326"
+AAAAB3NzaC1yc2EAAAADAQABAAABAQCk1jclPoq9wGwmNdKNQ7n44gP5CZn25ZZy
+PZu7CxZFA92eSSG68uzUKOYHd7bb/QUL3IfI0v63zf55qlJpFxAboN3lFYLI+4JK
+bzjIXP7OVSiUrU8Ksv1ywYiwfD7OnOQwotgD+swud3M+46vpSfP27+LG9hWpHmAn
+vy1U9UzVjEp3AoUXMErDNzzoky5dg2I0OIY/CvO9LvNiUSNCYCjUU8idEcwQ4LPo
+uVRz4zS1KcYn1t6hkb1jxGCnnUaYeNrqyp/yIAS9HBt8p7Ac4JrbOG+FZw+Dl4BT
+gohIJG/1L57ETvFF0pRHFnT9kdFd/mp7BMD1T424AIC8G++MFOz9
+---- END SSH2 PUBLIC KEY ----
